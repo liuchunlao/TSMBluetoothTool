@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>C2E2E412-5F60-42E9-976F-8A0E194109CF</string>
+	<key>IDESourceControlProjectName</key>
+	<string>TSMBluetoothTool</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F5F71B3AADA13BB84A00FEB2B13756100520002F</key>
+		<string>https://github.com/liuchunlao/TSMBluetoothTool.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>TSMBluetoothTool.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F5F71B3AADA13BB84A00FEB2B13756100520002F</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/liuchunlao/TSMBluetoothTool.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F5F71B3AADA13BB84A00FEB2B13756100520002F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F5F71B3AADA13BB84A00FEB2B13756100520002F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>TSMBluetoothTool</string>
+		</dict>
+	</array>
+</dict>
+</plist>
