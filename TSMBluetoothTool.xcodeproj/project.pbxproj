@@ -14,6 +14,8 @@
 		128E61561ACCD52400EFE760 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 128E61551ACCD52400EFE760 /* Images.xcassets */; };
 		128E61591ACCD52400EFE760 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 128E61571ACCD52400EFE760 /* LaunchScreen.xib */; };
 		128E61651ACCD52400EFE760 /* TSMBluetoothToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 128E61641ACCD52400EFE760 /* TSMBluetoothToolTests.m */; };
+		1296F2741AFB65A6002F0B42 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1296F2731AFB65A6002F0B42 /* CoreBluetooth.framework */; };
+		1296F2771AFB664D002F0B42 /* LVBlutToothViewcontroller.m in Sources */ = {isa = PBXBuildFile; fileRef = 1296F2761AFB664D002F0B42 /* LVBlutToothViewcontroller.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		128E615E1ACCD52400EFE760 /* TSMBluetoothToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TSMBluetoothToolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		128E61631ACCD52400EFE760 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		128E61641ACCD52400EFE760 /* TSMBluetoothToolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSMBluetoothToolTests.m; sourceTree = "<group>"; };
+		1296F2731AFB65A6002F0B42 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		1296F2751AFB664D002F0B42 /* LVBlutToothViewcontroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LVBlutToothViewcontroller.h; sourceTree = "<group>"; };
+		1296F2761AFB664D002F0B42 /* LVBlutToothViewcontroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LVBlutToothViewcontroller.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1296F2741AFB65A6002F0B42 /* CoreBluetooth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +69,7 @@
 		128E613C1ACCD52400EFE760 = {
 			isa = PBXGroup;
 			children = (
+				1296F2731AFB65A6002F0B42 /* CoreBluetooth.framework */,
 				128E61471ACCD52400EFE760 /* TSMBluetoothTool */,
 				128E61611ACCD52400EFE760 /* TSMBluetoothToolTests */,
 				128E61461ACCD52400EFE760 /* Products */,
@@ -89,6 +96,8 @@
 				128E61551ACCD52400EFE760 /* Images.xcassets */,
 				128E61571ACCD52400EFE760 /* LaunchScreen.xib */,
 				128E61481ACCD52400EFE760 /* Supporting Files */,
+				1296F2751AFB664D002F0B42 /* LVBlutToothViewcontroller.h */,
+				1296F2761AFB664D002F0B42 /* LVBlutToothViewcontroller.m */,
 			);
 			path = TSMBluetoothTool;
 			sourceTree = "<group>";
@@ -163,6 +172,7 @@
 		128E613D1ACCD52400EFE760 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = LV;
 				LastUpgradeCheck = 0620;
 				ORGANIZATIONNAME = liuchunlao;
 				TargetAttributes = {
@@ -219,6 +229,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1296F2771AFB664D002F0B42 /* LVBlutToothViewcontroller.m in Sources */,
 				128E61511ACCD52400EFE760 /* ViewController.m in Sources */,
 				128E614E1ACCD52400EFE760 /* AppDelegate.m in Sources */,
 				128E614B1ACCD52400EFE760 /* main.m in Sources */,
@@ -414,6 +425,7 @@
 				128E616A1ACCD52400EFE760 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		128E616B1ACCD52400EFE760 /* Build configuration list for PBXNativeTarget "TSMBluetoothToolTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +434,7 @@
 				128E616D1ACCD52400EFE760 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
